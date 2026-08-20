@@ -2837,6 +2837,21 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Monocle of the Last Glance",
+			"source": "BakerKanon",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature with the {@feat Mark of Detection|BakerKanon}",
+			"wondrous": true,
+			"property": [
+				"DF|ExploringEberron24",
+				"DF:D|ExploringEberron24"
+			],
+			"entries": [
+				"This enchanted lens has 4 charges. While wearing it, you can use an action to expend one of its charges and touch the skull of a dead creature; you receive a vision of what the creature saw in the final six seconds of its life. Sight is the only sense associated with this vision, and you are limited to what the dead creature was capable of seeing; casting {@spell See Invisibility|XPHB} while using this item won't reveal invisible creatures in the vision. Depending on the nature of the image, you may be able to gain useful information by making a Wisdom ({@skill Perception|XPHB}), Wisdom ({@skill Insight|XPHB}) or Intelligence ({@skill Investigation|XPHB}) check. You're limited to what the creature was capable of seeing, but you may notice details about the scene or draw conclusions that the creature didn't make in life.",
+				"The monocle regains all of its charges at dawn."
+			]
+		},
+		{
 			"name": "Raincaller's Crown",
 			"source": "BakerKanon",
 			"rarity": "uncommon",
@@ -6230,6 +6245,216 @@
 					},
 					"credit": "Styliani \"Slyverryn\" Papadaki"
 				}
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Curing Lycanthropy",
+			"source": "BakerKanon",
+			"ruleType": "O",
+			"entries": [
+				"Lycanthropes who are born with the condition (IE Changing Folk) or who receive it as a gift ({@reward Olarune's Blessing|BakerKanon}) or through an item or bargain (Skinwearers) can't be cured. Likewise, exceptionally powerful lycanthropes\u2014\"alphas\"\u2014can't be cured.",
+				"{@spell Remove Curse|XPHB} can remove lycanthropy before it is triggered (by the victim dropping to zero hit points), or if it is administered within a day of the initial transformation. {@spell Greater Restoration|XPHB} can remove the curse of lycanthropy up to a month after the initial transformation. {@spell Wish|XPHB} or spells of similar power can always remove lycanthropy.",
+				"If someone casts {@spell Remove Curse|XPHB}, {@spell Greater Restoration|XPHB}, or a similar spell on an unwilling victim\u2014such as a hostile lycanthrope\u2014they must make a successful spell attack roll against the target and the victim gets to make a Wisdom saving throw to resist the effect.",
+				"There may be another way to cure a specific lycanthrope based on the story behind the strain. Perhaps there's a celestial relic, a rare herb charged with the energies of Irian, or an experimental treatment House Jorasco and House Vadalis have been working on that can cure a lycanthrope. The point is that this is an interesting story\u2014not just the expenditure of a spell slot."
+			]
+		},
+		{
+			"name": "Lycanthrope Variant Traits",
+			"source": "BakerKanon",
+			"ruleType": "VO",
+			"entries": [
+				"These abilities could be added to a current lycanthrope. With that said, there's no direct way to map them to an increase in CR, because the impact on combat will be entirely dependent on the degree to which your adventurers are prepared for the challenge. As such, it's up to you as a DM to consider how these changes will affect the encounters you're setting up\u2014and to reward your players for overcoming greater challenges. A few other things to consider:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Bane materials",
+							"entry": "In a number of these abilities I refer to bane materials. It's an interesting challenge to have an enemy who can't be killed or slain by normal weapons. But now that it's not part of the stat block, there's no reason that weakness has to involve silver. It's an easy choice and thematically appropriate for the children of the Wild Heart, supporting the Silver Flame and the Silver Crusade. But it makes sense to me that lycanthropes created by the daelkyr would be vulnerable to byeshk rather than silver. Meanwhile, champions of Olarune might be resistant to harm from all worked metals, but vulnerable to weapons made from wood or bone. If you want to get wild, a fey lycanthrope could have a weakness tied to their own story: perhaps they can only be hurt by a weapon dipped in tears, or they take no damage from anyone who has the {@condition frightened} condition. The key to introducing a new sort of bane is that there needs to be a straightforward way for the adventurers to uncover it. Consider whether the weakness is simply common knowledge; after the Silver Crusade, it makes sense that MOST people know that silver is a common bane for lycanthropes. If a creature has a different bane, how are the adventurers supposed to find out about it? Is it just a skill check? Is there a sage or a library who knows the answer? You want this to be a challenge for your players, not a source of sheer frustration."
+						},
+						{
+							"type": "item",
+							"name": "Limited by Form?",
+							"entry": "A second question to keep in mind is whether a trait is restricted to certain forms. The lycanthropes of the 2014 Monster Manual possess their damage immunity in all of their shapes. But if a lycanthrope only possesses invulnerability in its beast or hybrid forms, it gives them a concrete REASON to fight in animal form rather than to use weapons and equipment while still benefiting from invulnerability in humanoid form. It also solves the question of whether you can easily test for werewolves by inflicting minor injuries on them in humanoid form."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "WEAPON IMMUNITY",
+					"entries": [
+						"The lycanthrope is immune to bludgeoning, piercing, and slashing damage unless it's dealt by a weapon made from their bane material.",
+						"{@note This is the most extreme version of this trait, and can be frustrating for melee-focused characters. Consider what options are available for such characters. Can they improvise a weapon using the bane material available to them? Can they hit the enemy with a torch? A second question is what this invulnerability LOOKS like. Does a sword bounce off them? Does it injure them, but the wound heals right away? Do they get injured, but don't react to the damage\u2014continuing to fight even with arrows piercing their body? If this invulnerability manifests in humanoid form, this could be an easy way to reveal a lycanthrope.}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "WEAPON RESISTANCE",
+					"entries": [
+						"The lycanthrope is resistant to bludgeoning, piercing, and slashing damage unless it's dealt by a weapon made from their bane material.",
+						"{@note This means that a melee-focused character CAN choose to ignore the trait and fight using their normal weapons and techniques; it will be harder, but it's possible.}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "REGENERATION",
+					"entries": [
+						"The lycanthrope regains 10 hit points at the start of each of its turns. If the lycanthrope takes damage from a weapon made from its bane material, this trait doesn't function at the start of the lycanthrope's next turn. The lycanthrope dies only if it starts its turn with 0 hit points and doesn't regenerate.",
+						"{@note Drawn from the {@monster Loup Garou|VRGR} from {@book Van Richten's Guide To Ravenloft|VRGR}, this trait has the advantage that it's just as relevant to spellcasters as it is to warriors. It's not simply that swords won't kill the wolf\u2014it will recover from fire and acid as well, rising again and again until someone finishes it off using its bane. I like the flavor of this more than simple immunity, but even more than immunity, if the adventurers don't have knowledge of and access to the bane material, you're placing them in an impossible situation. Beyond the bane material, you could choose to add other damage types that would have the same effect; lycanthropes tied to the overlords might be hurt both by silvered weapons and by radiant damage.}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "UNNATURAL VITALITY",
+					"entries": [
+						"When the lycanthrope is reduced to zero hit points, it enters a cataleptic state that is indistinguishable from death. It appears to be dead to outward observation and spells used to determine the lycanthrope's status. While in this state it has the {@condition blinded} and {@condition incapacitated} conditions and its speed is zero. It remains in this state until it suffers any damage from a weapon forged from its bane material, at which point it dies; or until the moon rises, at which point the state ends and the lycanthrope gains the benefits of a long rest.",
+						"{@note This trait has a powerful long-term effect, but doesn't change the balance of combat. Adventurers can defeat the lycanthrope using all their usual weapons and spells, but unless they know what it is and how to kill it, it will rise again. This is ideal for a slow burn story, where adventurers face a villain and don't realize they're a supernatural creature until they've killed the villain once only to have them return the next day. A question to consider is whether there are any ways to get around this. If the lycanthrope is dismembered, will that kill it? Will it reconstitute itself at nightfall? Or will it remain 'dead' until the pieces are brought back together, at which point it will rise again? This can allow for a cult that steals the preserved head of a long-dead lycanthrope from some vault, because they've located the rest of his body...}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "NO INFECTION",
+					"entries": [
+						"This lycanthrope does not curse its victim with its bite attack.",
+						"{@note For creatures where the condition of lycanthropy is a blessing rather than a curse, it doesn't make much sense to spread it like a zombie plague.}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "ONGOING INFECTION",
+					"entries": [
+						"When a creature is cursed by the lycanthrope's bite, their hit point maximum is reduced by the damage of the bite attack. This damage cannot be undone until the curse is removed. When the cursed creature attempts to take a long rest, they must make a Wisdom saving throw (DC 12); the DC is increased by 1 for each full moon. If the cursed creature fails the saving throw, they become a lycanthrope under the DM's control. Once this occurs the curse is removed and their hit point maximum is restored; at this point they are a lycanthrope, and the condition can only be removed by a wish or similar level of power. At the DM's discretion, the character could remain in control of their actions while in their humanoid form, but have to make the Wisdom saving throw every time they attempt a long rest, losing control and becoming a lycanthrope whenever they fail.",
+						"{@note This retains the idea that a victim could carry the curse for a while, struggling against it. It keeps the simplicity of the 2025 approach in that when the victim transforms, they become a lycanthrope of the appropriate type under the DM's control; it's not a template, and they don't retain any of their skills or class features. When using this approach, the DM could make removing the curse more difficult than simply casting a spell; perhaps the victim needs to acquire a certain herb, or be stabbed with a weapon made from the lycanthrope's bane material to 'kill the curse.'}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "SLOW INFECTION",
+					"entries": [
+						"This follows the rules for the Ongoing Infection, but the victim cannot be transformed by dropping to zero hit points; they can ONLY be transformed by failing a saving throw while taking a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "FERAL BOND",
+					"entries": [
+						"The lycanthrope can cast {@spell animal friendship|XPHB}, speak with animals and beast sense at will, but only targeting beasts of the same type as the lycanthrope's beast form.",
+						"{@note For a guardian of nature, this reflects the lycanthrope's connection to the natural world. For a cursed lycanthrope, this represents their ability to corrupt nature and twist it to serve their purposes.}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "RESTRICTED SHAPE-SHIFT",
+					"entries": [
+						"The lycanthrope can only use its Shape-Shift bonus action when certain conditions are met. This could require the lycanthrope to be in possession of a particular object, such as a wolfskin belt or a set of hide armor. It could be limited to a certain time or place\u2014they can only change while illuminated by moonlight. It could require the lycanthrope to spill blood, or even only be possible when the lycanthrope reduces a humanoid creature to zero hit points. The DM must also decide whether this applies in all forms. It could be that a cultist of the Wild Heart can enter wolf form at will, but can only return to humanoid form when they reduce a creature to zero hit points. Once they accept the gift, they HAVE to kill, or else be trapped in animal form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BESTIAL SHAPE-SHIFT",
+					"entries": [
+						"When this lycanthrope uses the Shape-Shift bonus action, they can only assume an animal form or their true humanoid form; they do not have a hybrid form.",
+						"{@note This is an option to distinguish a strain and prevents them from relying on weapons when they aren't in humanoid form.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Strains of Lycnathropy",
+			"source": "BakerKanon",
+			"ruleType": "VO",
+			"entries": [
+				"Canon lore provides no absolute origin for lycanthropy. It's suggested that it could be tied to Eberron, Lamannia, or Olarune, and that this gift could have been corrupted by an overlord or by the daelkyr. Some believe shifters are descended from lycanthropes; some say that the reverse is true, and that the first lycanthropes were blessed shifters. To all of this, I say {@i why not both?} Here I describe six strains of lycanthropy. Of these, {@reward Skinchanger|BakerKanon|skinchangers} are by far the most common; when people say \"werewolf\" they generally mean \"skinchanger.\" Most people have only heard of the others in stories, if that; it's up to you to decide if any of these strains even exist in YOUR Eberron.",
+				{
+					"type": "entries",
+					"name": "SKINCHANGERS",
+					"entries": [
+					]
+				}
+			]
+		},
+		{
+			"name": "Forensic Magic",
+			"source": "BakerKanon",
+			"ruleType": "O",
+			"entries": [
+				"If an adventurer who's proficient in both {@skill Arcana|XPHB} and {@skill Investigation|XPHB} and who's capable of casting {@spell Detect Magic|XPHB} studies a scene, they the opportunity to find traces of spells that have been used in the recent past, potentially gaining any of the following details... typically in this order.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Traces",
+							"entry": "How many spells have been used in the area that's being studied in the last 24 hours? This is the first step; the investigator might have a vague sense of relative power and time. If they pick a spell to study, they have an opportunity to obtain additional information."
+						},
+						{
+							"type": "item",
+							"name": "School of Magic",
+							"entry": "This is the easy default; {@spell Detect Magic|XPHB} allows anyone to do this, with no proficiency or check."
+						},
+						{
+							"type": "item",
+							"name": "When was the spell cast?",
+							"entry": "This will be approximate, but it's something."
+						},
+						{
+							"type": "item",
+							"name": "What level spell slot was used to cast the spell?",
+							"entry": "This is a basic mechanical element of spells and a concept people understand within the world itself; it's a basic measure of the power of a spell."
+						},
+						{
+							"type": "item",
+							"name": "What is the Power Source of the spell?",
+							"entry": "Broadly, what type of magic is it? Arcane? Divine? Primal? Generally, a professional who's able to cast {@spell Detect Magic|XPHB} can make this determination without being familiar with the magic in question; you don't have to be a cleric to identify divine magic. However, if the spell is something more exotic, the DM might limit things; psionic spells or something associated with an exotic warlock might show up as \"an unknown form of energy manipulation\"\u2014unless the investigator has prior experience with that form of magic."
+						},
+						{
+							"type": "item",
+							"name": "Spell Signature",
+							"entry": "Once the investigator has identified the power source of a spell, they may be able to glean more specific details about the spell or the spellcaster. For a Divine spell, the basic signature reveals the faith of the spellcaster: Sovereign Host, Path of Light, Silver Flame. With a Primal spell it will reveal the druidic sect or tradition. For an Arcane spell, it reveals the literal school where the caster learned magic; Arcanix has an entirely different style from the war magic of Rekkenmark, the workhorse training of the Twelve, or the esoteric precision of Aereni magic. If the user is self trained, that will be evident; \"It's an unconventional, haphazard style, probably self-taught.\" If the DM doesn't know these specific details, it might provide a broad sense of nationality of the caster; we've never named any schools of magic in the Mror Holds, but Mror arcane spells have a signature that's broadly different from those of Breland or Aundair. When appropriate, the DM can also say that the investigator identifies the distinctive style but doesn't recognize it\u2014this would be appropriate for the magic of Argonnessen, the Lords of Dust, or a unique Cult of the Dragon Below. The point is that once they've encountered in once, they'll recognize it when they encounter it again."
+						},
+						{
+							"type": "item",
+							"name": "Further Details",
+							"entry": "The power source and signature provide a solid foundation: It's a divine spell associated with the Blood of Vol or it's an arcane spell cast by someone trained at Rekkenmark. But an exceptional investigator could potentially pick up additional information. A simple discovery would be information about the components used in the spell: did they use sulfur to cast this {@spell Fireball|XPHB} or did they use a pinch of refined dragonshard? Were they rushed\u2014casting in the middle of a fight\u2014or did they take their time? What sort of arcane focus did they use\u2014a rod or a wand?"
+						}
+					]
+				},
+				"See also:",
+				{
+					"type": "list",
+					"items": [
+						"{@variantrule Investigation - Arcane Forensics|BakerKanon}",
+						"{@variantrule Investigation - Traces of Life|BakerKanon}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Investigation - Arcane Forensics",
+			"source": "BakerKanon",
+			"ruleType": "O",
+			"entries": [
+				"Spend ten minutes studying the area; this includes casting {@spell Detect Magic|XPHB} as a ritual. This provides a sense of spell effects that have been used in the area within the last 24 hours and the schools of magic involved. To study a specific spell, make an Intelligence ({@skill Investigation|XPHB}) check. The base difficulty is 10, increased by 3 for every six hours that have passed since the spell was cast. If the check is successful, the caster can learn one detail: time of casting, power source, or spell level. For every 3 points above the required difficulty, they can learn one additional detail. Once the power source has been identified, this can include the signature and further details."
+			]
+		},
+		{
+			"name": "Investigation - Traces of Life",
+			"source": "BakerKanon",
+			"ruleType": "O",
+			"entries": [
+				"Spend ten minutes studying the area; this includes casting {@spell Locate Animals or Plants|XPHB} as a ritual. This provides a vague sense of the types of creatures that have been present in the area over the last day.  To study a specific spell, make an Intelligence ({@skill Investigation|XPHB}) check. The base difficulty is 10, increased by 3 for every six hours that have passed since the creature was present. If the check is successful, the investigator knows the species of the creature. For every 3 points of success, they can learn an additional detail chosen by the DM. This could be age, hair color, whether they were injured, something about their clothing; whatever could be reasonably deduced. So with a result of 22 they could learn There was an old male dwarf who was wearing heavy armor."
+			]
+		}
+	],
+	"reward": [
+		{
+			"name": "Olarune's Blessing",
+			"source": "BakerKanon",
+			"type": "Blessing",
+			"entries": [
+				"When you receive this blessing, it is associated with a specific beast. As a {@variantrule Bonus Action, you can shape-shift into the form of this beast or return to your humanoid form. Your size and speed match that of the current form, and while in beast form you may use one attack possessed by that beast chosen by the DM when this blessing is received; otherise, your game statistics are the same in each form. Any equipment you are wearing or carrying isn't transformed."
 			]
 		}
 	]
