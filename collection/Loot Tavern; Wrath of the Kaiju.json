@@ -29,8 +29,8 @@
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1758326400,
-		"dateLastModified": 1780953261,
-		"_dateLastModifiedHash": "e3d823d512"
+		"dateLastModified": 1790286463,
+		"_dateLastModifiedHash": "309ce2fafa"
 	},
 	"feat": [
 		{
@@ -10791,6 +10791,10 @@
 					]
 				}
 			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WrathOfTheKaiju/tokens/Futsu Kabuto.webp"
+			},
 			"senseTags": [
 				"T"
 			],
@@ -18087,10 +18091,7 @@
 				"H"
 			],
 			"type": {
-				"type": "swarm",
-				"tags": [
-					"undead"
-				],
+				"type": "undead",
 				"swarmSize": "S"
 			},
 			"alignment": [

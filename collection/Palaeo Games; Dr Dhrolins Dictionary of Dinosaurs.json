@@ -22,8 +22,8 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1768290109,
-		"dateLastModified": 1777024059,
-		"_dateLastModifiedHash": "50f8a6a433"
+		"dateLastModified": 1788187129,
+		"_dateLastModifiedHash": "6708c4b220"
 	},
 	"subclass": [
 		{
@@ -3111,15 +3111,6 @@
 				{
 					"common": true,
 					"other": true
-				}
-			],
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning"
-					],
-					"note": "falling damage only; while not incapacitated",
-					"cond": true
 				}
 			],
 			"entries": [
@@ -9887,9 +9878,11 @@
 				"M"
 			],
 			"type": {
-				"type": "swarm of Small beasts",
+				"type": "beast",
 				"swarmSize": "S",
-				"note": "(Erythrosuchid)"
+				"tags": [
+					"erythrosuchid"
+				]
 			},
 			"alignment": [
 				"U"
@@ -9999,9 +9992,11 @@
 				"M"
 			],
 			"type": {
-				"type": "swarm of Small beasts",
+				"type": "beast",
 				"swarmSize": "S",
-				"note": "(Erythrosuchid)"
+				"tags": [
+					"erythrosuchid"
+				]
 			},
 			"alignment": [
 				"U"
@@ -17020,9 +17015,11 @@
 				"M"
 			],
 			"type": {
-				"type": "swarm of Tiny beasts",
+				"type": "beast",
 				"swarmSize": "T",
-				"note": "(Pterosaur)"
+				"tags": [
+					"pterosaur"
+				]
 			},
 			"alignment": [
 				"U"
@@ -17137,9 +17134,11 @@
 				"M"
 			],
 			"type": {
-				"type": "swarm of Tiny beasts",
+				"type": "beast",
 				"swarmSize": "T",
-				"note": "(Pterosaur)"
+				"tags": [
+					"pterosaur"
+				]
 			},
 			"alignment": [
 				"U"

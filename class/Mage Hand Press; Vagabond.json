@@ -25,8 +25,8 @@
 		"edition": "classic",
 		"status": "wip",
 		"dateAdded": 1687028625,
-		"dateLastModified": 1780473953,
-		"_dateLastModifiedHash": "616dd167b5"
+		"dateLastModified": 1788187129,
+		"_dateLastModifiedHash": "7c7527f7f3"
 	},
 	"class": [
 		{
@@ -71,17 +71,6 @@
 				}
 			],
 			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"heavy",
-					"shield"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
-				"tools": [],
 				"skills": [
 					{
 						"choose": {
@@ -98,6 +87,25 @@
 							],
 							"count": 2
 						}
+					}
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [],
+				"armor": [
+					"light",
+					"medium",
+					"heavy",
+					"shield"
+				],
+				"armorProficiencies": [
+					{
+						"light": true,
+						"medium": true,
+						"heavy": true,
+						"shield": true
 					}
 				]
 			},
@@ -162,12 +170,17 @@
 					]
 				},
 				"proficienciesGained": {
-					"armor": [
-						"light"
-					],
 					"weapons": [
 						"simple",
 						"martial"
+					],
+					"armor": [
+						"light"
+					],
+					"armorProficiencies": [
+						{
+							"light": true
+						}
 					]
 				}
 			},
@@ -2253,7 +2266,7 @@
 			"level": 1,
 			"school": "T",
 			"subschools": [
-				"Chronomancy"
+				"chronomancy"
 			],
 			"time": [
 				{
@@ -2305,7 +2318,7 @@
 			"level": 2,
 			"school": "C",
 			"subschools": [
-				"Chronomancy"
+				"chronomancy"
 			],
 			"time": [
 				{
@@ -2457,7 +2470,7 @@
 			"level": 1,
 			"school": "C",
 			"subschools": [
-				"Chronomancy"
+				"chronomancy"
 			],
 			"time": [
 				{
